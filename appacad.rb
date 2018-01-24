@@ -104,7 +104,6 @@ last_name2 = last_name
 last_name.capitalize
 last_name.capitalize!
 
-
 print "Which city are you from? "
 city = gets.chomp
 city2 = city.capitalize
@@ -114,18 +113,11 @@ print "Which state are you from? "
 state = gets.chomp
 state2 = city.upcase!
 =begin
-
-print "What's your first name? "
-first_name = gets.chomp
-first_name2 = first_name.capitalize
-first_name.capitalize!
-
 print "What's your last name? "
 last_name = gets.chomp
 last_name2 = last_name
 last_name.capitalize
 last_name.capitalize!
-
 
 print "Which city are you from? "
 city = gets.chomp
@@ -134,50 +126,7 @@ city.capitalize!
 
 print "Which state are you from? "
 state = gets.chomp
-state2 = city.upcase!
-1
-print "What's your first name? "
-2
-first_name = gets.chomp
-3
-first_name2 = first_name.capitalize
-4
-first_name.capitalize!
-5
-​
-6
-print "What's your last name? "
-7
-last_name = gets.chomp
-8
-last_name2 = last_name
-9
-last_name.capitalize
-10
-last_name.capitalize!
-11
-​
-12
-​
-13
-print "Which city are you from? "
-14
-city = gets.chomp
-15
-city2 = city.capitalize
-16
-city.capitalize!
-17
-​
-18
-print "Which state are you from? "
-19
-state = gets.chomp
-20
-state2 = city.upcase!
-21
-​
-Run
+state2 = city.upcase!=begin
 What's your first name? Jonathan
 What's your last name? Green
 Which city are you from? San Francisco
