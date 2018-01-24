@@ -11,3 +11,8 @@ my_string = "Ruby"    # Also here.
 puts my_num
 puts my_boolean
 puts my_string
+---
+my_num = 100
+# Write code above this line!
+
+puts my_num
