@@ -26,3 +26,19 @@ puts "What's up?"
 print "Oxford Montalvo"
 # length of string
 "Jonathan Green".length # ==> 14
+#Reverse Method
+puts "Jonathan".reverse
+puts "eric".upcase #++> ERIC
+puts "eric".upcase #++>
+puts "Jonathan".downcase
+# This is just a line of comment!
+=begin
+This is an example of multiline comment
+=end
+ name = "Jonathan" # string variable example
+ my_name = "Jonathan"
+ my_age = 27
+
+sum = 13 + 379
+product =923 * 15
+quotient = 13209 / 17
