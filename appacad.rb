@@ -17,8 +17,12 @@ my_num = 100
 
 puts my_num
 ---
+# This is asingle line comment
+
 =begin
-This is a multiline comment 
+This is a multiline comment
 =end
 puts "What's up?"
 print "Oxford Montalvo"
+# length of string
+"Jonathan Green".length # ==> 14
