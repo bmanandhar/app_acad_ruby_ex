@@ -42,3 +42,8 @@ This is an example of multiline comment
 sum = 13 + 379
 product =923 * 15
 quotient = 13209 / 17
+puts name = "Jonathan".downcase.reverse.upcase
+# single line comment
+=begin
+multiline comment is easy to write when comments are too long while you code with ruby programing language.
+=end
