@@ -132,3 +132,34 @@ What's your last name? Green
 Which city are you from? San Francisco
 Which state are you from? California
 =end
+
+print "Integer please: "
+user_num = Integer(gets.chomp)
+
+if user_num < 0
+  puts "You picked a negative integer!"
+elsif user_num > 0
+  puts "You picked a positive integer!"
+else
+  puts "You picked zero!"
+end
+my_num = 8
+your_num = 8
+if my_num > your_num
+  puts "my_num is greater than your_num!"
+
+  elsif my_num < your_num
+  puts "my_num is less than your_num!"
+
+else
+  puts "my_num equals your_num!"
+
+end
+-----
+hungry = false
+
+unless hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end
