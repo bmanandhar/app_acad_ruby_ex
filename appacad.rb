@@ -215,5 +215,22 @@ if x > y
 elsif y > x
   print "y is greater than x"
 else
-  print"x equals to y"
+  print "x equals to y"
 end
+---
+low_altitude = false
+print "Good to climb!" unless low_altitude
+---
+# test_1 should be false
+test_1 = 9 < 3
+# test_2 = should be false
+test_2 = -8 >= -2
+# test_3 = should be true
+test_3 = 5 >= 5
+---
+# test_1 should be true
+test_1 = (3 == 3) || (4 != 5)
+# test_2 = should be true
+test_2 = (5 > 3) && (7 < 10)
+# test_3 = should be false
+test_3 = (5 != 5)
